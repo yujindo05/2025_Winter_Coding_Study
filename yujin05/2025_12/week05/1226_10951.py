@@ -4,7 +4,7 @@ def main():
         try:
             a, b = map(int, input().split())
             print(a + b)
-        except EOFError:
+        except :
             break
 
 if __name__ == '__main__':
