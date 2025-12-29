@@ -7,11 +7,8 @@ def main():
         l.append(n)
 
     print(max(l))
-    print(l.index(max(l)))
+    print(l.index(max(l))+1)
     
-    
-    
-
 
 if __name__ == '__main__':
     main()
